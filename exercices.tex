@@ -1,0 +1,76 @@
+\documentclass[12pt, addpoints]{exam}
+\usepackage{mayencourt}
+\pgfplotsset{compat=1.15}
+%\usepgfplotslibrary{statistics}
+%\usetikzlibrary{arrows}
+\pagestyle{headandfoot}
+\runningheadrule
+\firstpageheader{ECG Martigny}
+				{Exercices}
+				{Problèmes à une inconnue}
+\runningheader{ECG Martigny}
+				{Solutions}
+				{Problèmes à une inconnue}
+
+\begin{document}
+
+\begin{exercice}\label{exercice1}
+Résoudre les problèmes suivants (une seule inconnue) :
+\begin{enumerate}[a)]
+\item Un marchand vous achète 20 kg de fer et 5 kg de cuivre pour un total de Fr. 540.—. Le kilogramme de cuivre coûtant huit fois plus que le kilogramme de fer, déterminer le prix du kilogramme de chaque métal
+
+\item Pour fixer l’emplacement d’une exposition, on doit tenir compte des exigences suivantes : le tiers de la superficie est réservé à la verdure, le sixième aux routes, le quart au parking, 24 ha aux pavillons étrangers, 16 ha aux stands nationaux. Quelle est la superficie totale nécessaire à cette exposition ?
+
+\item Partager Fr. 26'000.— entre trois personnes de telle manière que la première ait Fr. 1'500.— de plus que la deuxième et la troisième Fr. 4'000.— de moins que la première.
+
+\item Quel capital doit posséder une personne qui plaçant le tiers à 4\% et le reste à 3 \% désire retirer un revenu annuel de Fr. 48'000.— ?
+
+\item Un entrepreneur doit transporter 460 tonnes de terre : il dispose de 2 camions, l’un de 5 tonnes, l’autre de 3 tonnes ; il désire effectuer 100 transports. Combien de fois doit-il utiliser chaque camion ?
+
+\item La recette d’un cinéma s’élève à Fr. 13'450.—, les places sont à Fr. 30.— et Fr. 40.—. Sachant qu’il y a eu 400 places vendues, déterminer le nombre de places de chaque espèce.
+
+\item On a partagé Fr. 1'650.–– entre 125 personnes ; chaque homme a reçu Fr. 15.–– et chaque femme Fr. 10.––. Combien y avait-il d'hommes et de femmes ?
+
+\item Il y avait dans une corbeille 3 fois autant de poires que de pommes ; on ôte 8 fruits de chaque sorte et le nombre de poires est maintenant 5 fois celui des pommes. Combien y avait-il de pommes et de poires ?
+
+\item Deux bergers ont ensemble 332 moutons. Le nombre de moutons du 1er surpasse de 8 le triple du nombre de moutons du second. Combien de moutons ont-ils chacun ?
+
+\item Un père a 25 ans de plus que son fils. Dans 20 ans, l'âge du père sera le double de celui de son fils. Quels sont les deux âges ?
+
+\item Partager 20 en deux parties telles que la somme du triple de l'une et du quintuple de l'autre soit 84.
+
+\item Un père a 70 ans ; son fils, 40. Combien y a-t-il d'années que l'âge du père était le triple de celui de son fils ?
+\end{enumerate}
+\end{exercice}
+
+\newpage
+
+\begin{solutions}{\ref{exercice1}}
+\begin{enumerate}[a)]
+\item Soit x le prix du kg de fer et 8x le prix du kg de cuivre
+	$20\cdot x+5\cdot 8\cdot x=540\Rightarrow x=9$	fer : Fr. 9.–/kg ; cuivre : Fr. 72.–/kg
+\item Soit x la surface de l'exposition $\frac{x}{3}+\frac{x}{6}+\frac{x}{4}+24+16=x\Rightarrow x=160$  
+	surface de l'exposition : 160 ha
+\item Soit x la part de la 1ère  personne : $x+(x-1500)+(x-4000)=26000\Rightarrow x=10500$
+	1re personne : Fr. 10'500.–,   2e personne : Fr. 9'000.–, 3e personne : Fr. 6'500.–.
+\item Soit x le capital $\frac{x}{3}\cdot \frac{4}{100}+\frac{2x}{3}\cdot \frac{3}{100}=48000$	capital x = Fr. 1'440'000.–.
+\item Soit x le nombre de voyages de camions de 5 tonnes et le nombre de camions à 3 tonnes
+	$5x+3(100-x)=460\Rightarrow x=80$	80 voyages à 5 tonnes et 20 voyages à 20 tonnes.
+\item Soit x le nombre de places à Fr. 30.–  et $\left( 400-x \right)$  le nombre de places à Fr. 40.–.
+	$30x+(400-x)40=13450\Rightarrow x=255$	255 places à Fr. 30.– et 145 places à Fr.40.–.
+\item Soit x le nombre d’hommes et 125-x le nombre de femmes.
+	$15x+10\left( 125-x \right)=1650\Rightarrow x=80$	0 hommes et 45 femmes
+\item Soit x le nombre de pommes et 3x le nombre de poires
+	$3x-8=5\left( x-8 \right)\Rightarrow x=16$	16 pommes et 48 poires
+\item Soit x le nombre de moutons du premier berger et 332-x le nombre de moutons du deuxième berger
+	$x-8=3\left( 332-x \right)\Rightarrow x=251$	251 moutons pour le 1er berger et 81 moutons pour le 2e berger
+\item Soit x l’âge du fils et x+25 l’âge du père
+	$x+25+20=2\left( x+20 \right)\Rightarrow x=5$	le fils a 5 ans et le père 30 ans
+\item Soit x la première partie et 20-x le deuxième
+	$3x+5\left( 20-x \right)=84\Rightarrow x=8$	la 1ère partie est 8 et la 2e est 12
+\item Soit x le nombre d’années
+	$70-x=3\left( 40-x \right)\Rightarrow x=25$	il y a 25 ans
+\end{enumerate}
+\end{solutions}
+
+\end{document}
